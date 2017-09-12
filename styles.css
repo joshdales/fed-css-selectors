@@ -3,3 +3,41 @@
 html {
   font-size: 16px;
 }
+
+h1, h2 {
+  font-family: sans-serif;
+}
+
+header {
+  border-bottom: 3px solid black;
+}
+
+.class-list {
+  list-style-type: square;
+}
+
+.item {
+  border: 4px solid green;
+}
+
+.even {
+  background-color: grey;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+#advanced-selectors li {
+  padding: 1em;
+  background-color: grey;
+}
