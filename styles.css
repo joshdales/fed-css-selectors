@@ -17,7 +17,7 @@ header {
 }
 
 .item {
-  border: 4px solid green;
+  border: 4px solid blue;
 }
 
 .even {
@@ -48,4 +48,12 @@ header {
 
 a[title="Bitmaker"]:hover {
   text-decoration: none;
+}
+
+ol ul>li>a:hover {
+  background-color: yellow;
+}
+
+ol ul>li>a:active {
+  background-color: red;
 }
